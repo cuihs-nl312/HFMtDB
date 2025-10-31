@@ -10,8 +10,8 @@ HFMtDB/                                            <br>
 ├── README.md                                      <br>
 ├── LICENSE                                        <br>
 ├── metadata/                                      <br>
-│  ├── mitogenomes_info.txt                       <br>
-│  └── reference.md                               <br>
+│    ├── mitogenomes_info.txt                       <br>
+│    └── reference.md                               <br>
 ├── mitogenomes_sequences/                         <br>
 │  └── Hypocreales/                               <br>
 │      ├── Hypocreaceae/                          <br>
