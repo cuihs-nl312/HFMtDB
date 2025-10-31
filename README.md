@@ -36,7 +36,7 @@ HFMtDB/                                          # 数据库根目录
 
 ## Linux Download
 ```
-git clone
+git clone https://github.com/cuihs-nl312/HFMtDB.git
 ```
 
 # Metadata
