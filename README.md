@@ -31,6 +31,13 @@ HFMtDB/                                          # 数据库根目录
     ├── gff2gbk_convert.py                       # Python 脚本：将 GFF 注释文件批量转换为 GenBank 格式
     └── README.md                                # 脚本使用说明：含依赖库安装、运行命令、参数解释
 ```
+# How to download HFMtDB?
+## Windows Download
+
+## Linux Download
+```
+git clone
+```
 
 # Metadata
 
