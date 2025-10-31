@@ -10,16 +10,16 @@ HFMtDB/                                            <br>
 ├── README.md                                      <br>
 ├── LICENSE                                        <br>
 ├── metadata/                                      <br>
-│   ├── mitogenomes_info.txt                       <br>
-│   └── reference.md                               <br>
+│  ├── mitogenomes_info.txt                       <br>
+│  └── reference.md                               <br>
 ├── mitogenomes_sequences/                         <br>
-│   └── Hypocreales/                               <br>
-│       ├── Hypocreaceae/                          <br>
-│       │   ├Trichoderma_T069_mito.fa（FASTA格式）  <br>
-│       │   └Trichoderma_FJ059_mito.fa（FASTA格式） <br>
-│       └── Bionectriaceae/                        <br>
-│           ├                                      <br>
-│           └                                      <br>
+│  └── Hypocreales/                               <br>
+│      ├── Hypocreaceae/                          <br>
+│      │   ├Trichoderma_T069_mito.fa（FASTA格式）  <br>
+│      │   └Trichoderma_FJ059_mito.fa（FASTA格式） <br>
+│      └── Bionectriaceae/                        <br>
+│          ├                                      <br>
+│          └                                      <br>
 ├── mitogenomes_annotations/                       <br>
 │   ├── Hypocreaceae/                              <br>
 │   │   ├── Hypocreaceae/Homo_sapiens_mt.gff       <br>
