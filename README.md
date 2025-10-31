@@ -2,7 +2,7 @@ HFMtDB
 ======
 Overview
 ========
-<font size="40">HFMtDB is a comprehensive mitochondrial genome database of Hypocreales Fungi. As a group with high species diversity and unique evolutionary characteristics in the phylum Ascomycota, Hypocreales plays a crucial role in multiple fields, including material cycling in ecosystems, agricultural production, pharmaceutical research and development, and the study of fungal evolutionary mechanisms. This study integrated the mitochondrial genome data of nearly a thousand strains from 11 families of Hypocreales. At the same time, genome assembly was also performed on some species without mitochondrial genomes.</font><br>
+HFMtDB is a comprehensive mitochondrial genome database of Hypocreales Fungi. As a group with high species diversity and unique evolutionary characteristics in the phylum Ascomycota, Hypocreales plays a crucial role in multiple fields, including material cycling in ecosystems, agricultural production, pharmaceutical research and development, and the study of fungal evolutionary mechanisms. This study integrated the mitochondrial genome data of nearly a thousand strains from 11 families of Hypocreales. At the same time, genome assembly was also performed on some species without mitochondrial genomes.<br>
 
 Data Structure
 =======
