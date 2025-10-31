@@ -7,7 +7,7 @@ HFMtDB is a mitogenomes database for fungi of Hypocreales. <br>
 数据结构
 =======
 HFMtDB/　　　　　　　　　　　　　　　　　　　　　　　　# 仓库根目录<br>
-├── README.md　　　　　　　　　　　　　　　　　　　　　# 必选！数据库说明文档（核心导航，含目录、使用指南）<br>
+├── README.md　　　　　　　　　　　　　　　　　　　　# 必选！数据库说明文档（核心导航，含目录、使用指南）<br>
 ├── LICENSE　　　　　　　　　　　　　　　　　　　　　　# 必选！开源许可（如 MIT 协议，明确数据使用、修改规则）<br>
 ├── metadata/　　　　　　　　　　　　　　　　　　　　　# 元数据文件夹（存储所有样本的基础描述信息）<br>
 │   ├── mitogenomes_info.txt　　　　　　　　　　　　　# 样本总表：包含物种名、样本ID、采集地、测序平台、数据版本等<br>
