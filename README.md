@@ -14,20 +14,19 @@ HFMtDB/                                          # 数据库根目录
 │   ├── mitogenomes_info.txt                     # 样本总表：包含物种名、样本ID、采集地、测序平台、数据版本等
 │   └── reference.md                             # 引用文献/数据来源：记录原始数据发表文献、公共数据库 accession 号
 ├── mitogenomes_sequences/                       # 基因组序列文件夹（核心数据，存储 FASTA 格式线粒体序列）
-│   └── Hypocreales/                             # 按目级类群分文件夹（此处为 Hypocreales 肉座菌目）
-│       ├── Bionectriaceae/                        # 科级子文件夹（肉座菌科）
-│       │   ├── Trichoderma_T069_mito.fa         # FASTA 格式：木霉菌属（Trichoderma）T069 菌株线粒体序列
-│       │   └── Trichoderma_FJ059_mito.fa        # FASTA 格式：木霉菌属（Trichoderma）FJ059 菌株线粒体序列
-│       └── Clavicipitaceae/                      # 科级子文件夹（生赤壳科）
-│       ├── Cordycipitaceae/
-│       ├── Hypocreaceae/
-│       ├── Nectriaceae/
-│       ├── Niessliaceae/
-│       ├── Ophiocordycipitaceae/
-│       ├── Pseudodiploosporaceae/
-│       ├── Sarocladiaceae/
-│       ├── Stcahybotriaceae/
-│       ├── 
+│   ├── Bionectriaceae/                          # 科级子文件夹（生赤壳科）
+│   │   ├── Trichoderma_T069_mito.fa             # FASTA 格式：木霉菌属（Trichoderma）T069 菌株线粒体序列
+│   │   └── Trichoderma_FJ059_mito.fa            # FASTA 格式：木霉菌属（Trichoderma）FJ059 菌株线粒体序列
+│   └── Clavicipitaceae/                         # 科级子文件夹（肉座菌科）
+│   ├── Cordycipitaceae/
+│   ├── Hypocreaceae/
+│   ├── Nectriaceae/
+│   ├── Niessliaceae/
+│   ├── Ophiocordycipitaceae/
+│   ├── Pseudodiploosporaceae/
+│   ├── Sarocladiaceae/
+│   ├── Stcahybotriaceae/
+│   ├── 
 ├── mitogenomes_annotations/                     # 注释文件文件夹（存储基因位置、功能等注释信息）
 │   ├── Hypocreaceae/                            # 科级子文件夹（对应肉座菌科序列的注释）
 │   │   ├── Homo_sapiens_mt.gff                  # GFF 格式：基因结构注释（含外显子、内含子、启动子位置）
