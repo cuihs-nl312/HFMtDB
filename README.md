@@ -19,13 +19,23 @@ HFMtDB/                                          # 数据库根目录
 │       │   ├── Trichoderma_T069_mito.fa         # FASTA 格式：木霉菌属（Trichoderma）T069 菌株线粒体序列
 │       │   └── Trichoderma_FJ059_mito.fa        # FASTA 格式：木霉菌属（Trichoderma）FJ059 菌株线粒体序列
 │       └── Bionectriaceae/                      # 科级子文件夹（生赤壳科）
-│           ├── [待补充物种]_mito.fa              # 生赤壳科物种线粒体序列（FASTA 格式，需补充具体物种名）
-│           └── [待补充物种]_mito.fa              # 生赤壳科物种线粒体序列（FASTA 格式，需补充具体物种名）
+│       ├──
+│       ├──
+│       ├──
+│       ├──
+│       ├──
+│       ├──
 ├── mitogenomes_annotations/                     # 注释文件文件夹（存储基因位置、功能等注释信息）
 │   ├── Hypocreaceae/                            # 科级子文件夹（对应肉座菌科序列的注释）
 │   │   ├── Homo_sapiens_mt.gff                  # GFF 格式：基因结构注释（含外显子、内含子、启动子位置）
 │   │   └── Homo_sapiens_mt.gbk                  # GenBank 格式：完整注释（含基因功能、碱基组成、ORF 信息）
 │   └── Bionectriaceae/                          # 科级子文件夹（对应生赤壳科序列的注释，待补充文件）
+│   ├──
+│   ├──
+│   ├──
+│   ├──
+│   ├──
+│   ├──
 └── scripts/                                     # 辅助脚本文件夹（存储数据处理、格式转换工具）
     ├── fasta_format_check.py                    # Python 脚本：批量校验 FASTA 文件格式（避免序列截断、格式错误）
     ├── gff2gbk_convert.py                       # Python 脚本：将 GFF 注释文件批量转换为 GenBank 格式
