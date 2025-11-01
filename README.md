@@ -45,7 +45,7 @@ HFMtDB/                                          # 数据库根目录
 ```
 # How to download HFMtDB?
 ## Windows Download
-  Go to the HFMtDB page on GitHub. Click the `Code` button on the page, then select `Download Zip`. All data from HFMtDB will then be downloaded to your computer.
+  Go to the HFMtDB page on GitHub. Click the `Code` button on the page, then select `Download ZIP`. All data from HFMtDB will then be downloaded to your computer.
   
 ## Linux Download
   Use the following code in the Linux command line. HFMtDB will be downloaded to the Linux directory.
