@@ -45,7 +45,7 @@ git clone https://github.com/cuihs-nl312/HFMtDB.git
   Metadata包含所有样本的基础描述信息，这里我们使用表格文件`（文件名称）`来展示所有物种线粒体基因组的基础信息。具体信息如下
 | Family | Species | Strain | Abb | Accession | Mitogenome Size (bp) | Complete (Y/N) |Reference | Note. |
 | --- | :---: | :---: |  :---: |  :---: |  :---: | :---: | :---: | ---: |
-| Hypocreaceae | Trichoderma breve | T069 | HyTbT069 | PP933710.1 | 26285 | Y | https://doi.org/10.3390/ijms252212140 | -- |
+| Hypocreaceae | Trichoderma breve | T069 | HyTbT069 | PP933710.1 | 26285 | Y | https://doi.org/10.3390/ijms252212140 |-- |
 
 # Mitogenomes_sequences
   In the Mitogenomes_sequences directory, mitochondrial genome sequence data of 11 families belonging to Hypocreales are presented. The mitochondrial genome data of each family is stored in a separate folder named after the family. The mitochondrial genome data of each strain is presented as an individual FASTA-formatted file, with the filename containing the species name and strain name.
