@@ -34,6 +34,7 @@ HFMtDB/                                          # 数据库根目录
 # How to download HFMtDB?
 ## Windows Download
   Go to the HFMtDB page on GitHub. Click the `Code` button on the page, then select `Download Zip`. All data from HFMtDB will then be downloaded to your computer.
+  
 ## Linux Download
   Use the following code in the Linux command line. HFMtDB will be downloaded to the Linux directory.
 ```
@@ -44,11 +45,10 @@ git clone https://github.com/cuihs-nl312/HFMtDB.git
 
 
 # Mitogenomes_sequences
-
+  In the Mitogenomes_sequences directory, mitochondrial genome sequence data of 11 families belonging to Hypocreales are presented. The mitochondrial genome data of each family is stored in a separate folder named after the family. The mitochondrial genome data of each strain is presented as an individual FASTA-formatted file, with the filename containing the species name and strain name.
 
 # Mitogenomes_annotations
-=======================
-
+  In the Mitogenomes_annotation directory, the annotation data of mitochondrial genomes from 11 families of Hypocreales are presented. The mitochondrial genome annotation results for each family are stored in a separate folder named after the family. The mitochondrial genome annotation result of each strain is presented as an individual `.txt` file, with the filename containing the species name and strain name.
 
 # Script
 
