@@ -16,7 +16,7 @@ HFMtDB/                                                               # 数据�
 │   ├── Bionectriaceae/                                               # 科级子文件夹（生赤壳科）
 │   │   ├── Clonostachys_rosea_strain_6792.fasta                      # FASTA 格式：木霉菌属（Trichoderma）T069 菌株线粒体序列
 │   │   └── Hapsidospora_chrysogena_strain_RNCM_408D.fasta            # FASTA 格式：木霉菌属（Trichoderma）FJ059 菌株线粒体序列
-│   └── Clavicipitaceae/                                              # 科级子文件夹（肉座菌科）
+│   ├── Clavicipitaceae/                                              # 科级子文件夹（肉座菌科）
 │   ├── Cordycipitaceae/
 │   ├── Hypocreaceae/
 │   ├── Nectriaceae/
@@ -27,8 +27,8 @@ HFMtDB/                                                               # 数据�
 │   ├── Stcahybotryaceae/
 ├── mitogenomes_annotations/                                          # 注释文件文件夹（存储基因位置、功能等注释信息）
 │   ├── Bionectriaceae/                                               # 科级子文件夹（对应肉座菌科序列的注释）
-│   └── Bionectriaceae/                                               # 科级子文件夹（对应生赤壳科序列的注释，待补充文件）
-│   └── Clavicipitaceae/                                              # 科级子文件夹（肉座菌科）
+│   ├── Bionectriaceae/                                               # 科级子文件夹（对应生赤壳科序列的注释，待补充文件）
+│   ├── Clavicipitaceae/                                              # 科级子文件夹（肉座菌科）
 │   ├── Cordycipitaceae/
 │   ├── Hypocreaceae/
 │   ├── Nectriaceae/
