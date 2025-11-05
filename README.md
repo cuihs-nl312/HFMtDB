@@ -6,17 +6,17 @@
 
 # Data Structure
 ```
-HFMtDB/                                          # 数据库根目录
-├── README.md                                    # 数据库说明文档（核心导航，含目录、使用指南）
-├── LICENSE                                      # 开源许可（如 MIT 协议，明确数据使用、修改规则）
-├── metadata/                                    # 元数据文件夹（存储所有样本的基础描述信息）
-│   ├── mitogenomes_info.txt                     # 样本总表：包含物种名、样本ID、采集地、测序平台、数据版本等
-│   └── reference.md                             # 引用文献/数据来源：记录原始数据发表文献、公共数据库 accession 号
-├── mitogenomes_sequences/                       # 基因组序列文件夹（核心数据，存储 FASTA 格式线粒体序列）
-│   ├── Bionectriaceae/                          # 科级子文件夹（生赤壳科）
-│   │   ├── Clonostachys_rosea_strain_6792.fasta            # FASTA 格式：木霉菌属（Trichoderma）T069 菌株线粒体序列
+HFMtDB/                                                               # 数据库根目录
+├── README.md                                                         # 数据库说明文档（核心导航，含目录、使用指南）
+├── LICENSE                                                           # 开源许可（如 MIT 协议，明确数据使用、修改规则）
+├── metadata/                                                         # 元数据文件夹（存储所有样本的基础描述信息）
+│   ├── mitogenomes_info.txt                                          # 样本总表：包含物种名、样本ID、采集地、测序平台、数据版本等
+│   └── reference.md                                                  # 引用文献/数据来源：记录原始数据发表文献、公共数据库 accession 号
+├── mitogenomes_sequences/                                            # 基因组序列文件夹（核心数据，存储 FASTA 格式线粒体序列）
+│   ├── Bionectriaceae/                                               # 科级子文件夹（生赤壳科）
+│   │   ├── Clonostachys_rosea_strain_6792.fasta                      # FASTA 格式：木霉菌属（Trichoderma）T069 菌株线粒体序列
 │   │   └── Hapsidospora_chrysogena_strain_RNCM_408D.fasta            # FASTA 格式：木霉菌属（Trichoderma）FJ059 菌株线粒体序列
-│   └── Clavicipitaceae/                         # 科级子文件夹（肉座菌科）
+│   └── Clavicipitaceae/                                              # 科级子文件夹（肉座菌科）
 │   ├── Cordycipitaceae/
 │   ├── Hypocreaceae/
 │   ├── Nectriaceae/
@@ -25,10 +25,10 @@ HFMtDB/                                          # 数据库根目录
 │   ├── Pseudodiploosporaceae/
 │   ├── Sarocladiaceae/
 │   ├── Stcahybotryaceae/
-├── mitogenomes_annotations/                     # 注释文件文件夹（存储基因位置、功能等注释信息）
-│   ├── Bionectriaceae/                             # 科级子文件夹（对应肉座菌科序列的注释）
-│   └── Bionectriaceae/                          # 科级子文件夹（对应生赤壳科序列的注释，待补充文件）
-│   └── Clavicipitaceae/                         # 科级子文件夹（肉座菌科）
+├── mitogenomes_annotations/                                          # 注释文件文件夹（存储基因位置、功能等注释信息）
+│   ├── Bionectriaceae/                                               # 科级子文件夹（对应肉座菌科序列的注释）
+│   └── Bionectriaceae/                                               # 科级子文件夹（对应生赤壳科序列的注释，待补充文件）
+│   └── Clavicipitaceae/                                              # 科级子文件夹（肉座菌科）
 │   ├── Cordycipitaceae/
 │   ├── Hypocreaceae/
 │   ├── Nectriaceae/
@@ -37,10 +37,10 @@ HFMtDB/                                          # 数据库根目录
 │   ├── Pseudodiploosporaceae/
 │   ├── Sarocladiaceae/
 │   ├── Stcahybotryaceae/
-└── scripts/                                     # 辅助脚本文件夹（存储数据处理、格式转换工具）
-    ├── fasta_format_check.py                    # Python 脚本：批量校验 FASTA 文件格式（避免序列截断、格式错误）
-    ├── gff2gbk_convert.py                       # Python 脚本：将 GFF 注释文件批量转换为 GenBank 格式
-    └── README.md                                # 脚本使用说明：含依赖库安装、运行命令、参数解释
+└── scripts/                                                          # 辅助脚本文件夹（存储数据处理、格式转换工具）
+    ├── fasta_format_check.py                                         # Python 脚本：批量校验 FASTA 文件格式（避免序列截断、格式错误）
+    ├── gff2gbk_convert.py                                            # Python 脚本：将 GFF 注释文件批量转换为 GenBank 格式
+    └── README.md                                                     # 脚本使用说明：含依赖库安装、运行命令、参数解释
 ```
 # How to download HFMtDB?
 ## Windows Download
