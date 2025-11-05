@@ -1,5 +1,4 @@
-HFMtDB
-======
+# HFMtDB
 
 # Overview
 
@@ -15,8 +14,8 @@ HFMtDB/                                          # 数据库根目录
 │   └── reference.md                             # 引用文献/数据来源：记录原始数据发表文献、公共数据库 accession 号
 ├── mitogenomes_sequences/                       # 基因组序列文件夹（核心数据，存储 FASTA 格式线粒体序列）
 │   ├── Bionectriaceae/                          # 科级子文件夹（生赤壳科）
-│   │   ├── Trichoderma_T069_mito.fa             # FASTA 格式：木霉菌属（Trichoderma）T069 菌株线粒体序列
-│   │   └── Trichoderma_FJ059_mito.fa            # FASTA 格式：木霉菌属（Trichoderma）FJ059 菌株线粒体序列
+│   │   ├── Clonostachys_rosea_strain_6792.fasta            # FASTA 格式：木霉菌属（Trichoderma）T069 菌株线粒体序列
+│   │   └── Hapsidospora_chrysogena_strain_RNCM_408D.fasta            # FASTA 格式：木霉菌属（Trichoderma）FJ059 菌株线粒体序列
 │   └── Clavicipitaceae/                         # 科级子文件夹（肉座菌科）
 │   ├── Cordycipitaceae/
 │   ├── Hypocreaceae/
@@ -26,11 +25,8 @@ HFMtDB/                                          # 数据库根目录
 │   ├── Pseudodiploosporaceae/
 │   ├── Sarocladiaceae/
 │   ├── Stcahybotryaceae/
-│   ├── 
 ├── mitogenomes_annotations/                     # 注释文件文件夹（存储基因位置、功能等注释信息）
 │   ├── Bionectriaceae/                             # 科级子文件夹（对应肉座菌科序列的注释）
-│   │   ├── Homo_sapiens_mt.gff                  # GFF 格式：基因结构注释（含外显子、内含子、启动子位置）
-│   │   └── Homo_sapiens_mt.gbk                  # GenBank 格式：完整注释（含基因功能、碱基组成、ORF 信息）
 │   └── Bionectriaceae/                          # 科级子文件夹（对应生赤壳科序列的注释，待补充文件）
 │   └── Clavicipitaceae/                         # 科级子文件夹（肉座菌科）
 │   ├── Cordycipitaceae/
@@ -41,7 +37,6 @@ HFMtDB/                                          # 数据库根目录
 │   ├── Pseudodiploosporaceae/
 │   ├── Sarocladiaceae/
 │   ├── Stcahybotryaceae/
-│   ├── 
 └── scripts/                                     # 辅助脚本文件夹（存储数据处理、格式转换工具）
     ├── fasta_format_check.py                    # Python 脚本：批量校验 FASTA 文件格式（避免序列截断、格式错误）
     ├── gff2gbk_convert.py                       # Python 脚本：将 GFF 注释文件批量转换为 GenBank 格式
@@ -59,9 +54,9 @@ git clone https://github.com/cuihs-nl312/HFMtDB.git
 
 # Metadata
   Metadata包含所有样本的基础描述信息，这里我们使用表格文件`Hypocreales_mitogenomes_infor.txt`来展示所有物种线粒体基因组的基础信息。具体信息如下
-| Family | Species | Strain | Abb | Accession | Mitogenome Size (bp) | Complete (Y/N) |Reference | Note. |
-| --- | :---: | :---: |  :---: |  :---: |  :---: | :---: | :---: | ---: |
-| Hypocreaceae | Trichoderma breve | T069 | HyTbT069 | PP933710.1 | 26285 | Y | https://doi.org/10.3390/ijms252212140 |-- |
+| Family | Species | Strain | Abbreviation | Accession | Mitogenome Size (bp) | GC (%) | Complete (Y/N) | Download |Reference | Note. |
+| --- | :---: | :---: |  :---: |  :---: |  :---: | :---: | :---: | :---: | :---: | ---: |
+| Hypocreaceae | Trichoderma breve | T069 | HyTbT069 | PP933710.1 | 26285 | 27.44 | Y | https://www.ncbi.nlm.nih.gov/nuccore/PP933710.1 | https://doi.org/10.3390/ijms252212140 |-- |
 
 # Mitogenomes_sequences
   In the Mitogenomes_sequences directory, mitochondrial genome sequence data of 11 families belonging to Hypocreales are presented. The mitochondrial genome data of each family is stored in a separate folder named after the family. The mitochondrial genome data of each strain is presented as an individual FASTA-formatted file, with the filename containing the species name and strain name.
