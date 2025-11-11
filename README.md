@@ -1,12 +1,12 @@
-# HFMtDB
+# HypoMtDB
 
 # Overview
 
-**`HFMtDB`** is a comprehensive mitochondrial genome database of Hypocreales Fungi. As a group with high species diversity and unique evolutionary characteristics in the phylum Ascomycota, Hypocreales plays a crucial role in multiple fields, including material cycling in ecosystems, agricultural production, pharmaceutical research and development, and the study of fungal evolutionary mechanisms. This study integrated the mitochondrial genome data of nearly a thousand strains from **`11 families`** of Hypocreales. At the same time, genome assembly was also performed on some species without mitochondrial genomes.<br>
+**`HypoMtDB`** is a comprehensive mitochondrial genome database of Hypocreales Fungi. As a group with high species diversity and unique evolutionary characteristics in the phylum Ascomycota, Hypocreales plays a crucial role in multiple fields, including material cycling in ecosystems, agricultural production, pharmaceutical research and development, and the study of fungal evolutionary mechanisms. This study integrated the mitochondrial genome data of nearly a thousand strains from **`11 families`** of Hypocreales. At the same time, genome assembly was also performed on some species without mitochondrial genomes.<br>
 
 # Data Structure
 ```
-HFMtDB/                                                               # 数据库根目录
+HypoMtDB/                                                               # 数据库根目录
 ├── README.md                                                         # 数据库说明文档（核心导航，含目录、使用指南）
 ├── LICENSE                                                           # 开源许可（如 MIT 协议，明确数据使用、修改规则）
 ├── metadata/                                                         # 元数据文件夹（存储所有样本的基础描述信息）
@@ -24,32 +24,20 @@ HFMtDB/                                                               # 数据�
 │   ├── Ophiocordycipitaceae/
 │   ├── Pseudodiploosporaceae/
 │   ├── Sarocladiaceae/
-│   ├── Stcahybotryaceae/
-├── mitogenomes_annotations/                                          # 注释文件文件夹（存储基因位置、功能等注释信息）
-│   ├── Bionectriaceae/                                               # 科级子文件夹（对应肉座菌科序列的注释）
-│   ├── Bionectriaceae/                                               # 科级子文件夹（对应生赤壳科序列的注释，待补充文件）
-│   ├── Clavicipitaceae/                                              # 科级子文件夹（肉座菌科）
-│   ├── Cordycipitaceae/
-│   ├── Hypocreaceae/
-│   ├── Nectriaceae/
-│   ├── Niessliaceae/
-│   ├── Ophiocordycipitaceae/
-│   ├── Pseudodiploosporaceae/
-│   ├── Sarocladiaceae/
-│   ├── Stcahybotryaceae/
+│   ├── Stcahybotryaceae/ 
 └── scripts/                                                          # 辅助脚本文件夹（存储数据处理、格式转换工具）
     ├── fasta_format_check.py                                         # Python 脚本：批量校验 FASTA 文件格式（避免序列截断、格式错误）
     ├── gff2gbk_convert.py                                            # Python 脚本：将 GFF 注释文件批量转换为 GenBank 格式
     └── README.md                                                     # 脚本使用说明：含依赖库安装、运行命令、参数解释
 ```
-# How to download HFMtDB?
+# How to download HypoMtDB?
 ## Windows Download
-  Go to the HFMtDB page on GitHub. Click the `Code` button on the page, then select `Download ZIP`. All data from HFMtDB will then be downloaded to your computer.
+  Go to the HypoMtDB page on GitHub. Click the `Code` button on the page, then select `Download ZIP`. All data from HFMtDB will then be downloaded to your computer.
   
 ## Linux Download
   Use the following code in the Linux command line. HFMtDB will be downloaded to the Linux directory.
 ```
-git clone https://github.com/cuihs-nl312/HFMtDB.git
+git clone https://github.com/cuihs-nl312/HypoMtDB.git
 ```
 
 # Metadata
