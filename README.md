@@ -22,10 +22,11 @@ HypoMtDB/                                                             # 数据�
 │   ├── Stcahybotryaceae_mitogenomes_infor.txt
 ├── mitogenomes_data/                                                 # 基因组相关数据（核心数据，存储 FASTA 格式线粒体序列以及基因组注释文件）
 │   ├── Hypocreaceae/                                                 # 科级子文件夹（肉座菌科）
-│   │   └── Trichoderma_breve_T069                                    # Trichoderma breve T069 菌株文件夹
-│   │       ├── Trichoderma_breve_T069.fasta                          # Trichoderma breve T069 菌株线粒体基因组序列
-│   │       ├── Trichoderma_breve_T069.gb                             # Trichoderma breve T069 菌株线粒体基因组 genbank 文件
-│   │       └── Trichoderma_breve_T069.gff                            # Trichoderma breve T069 菌株线粒体基因组 gff3 文件
+│   │    └──Trichoderma                                               # 属级子文件夹（木霉属）
+│   │       └── Trichoderma_breve_T069                                # Trichoderma breve T069 菌株文件夹
+│   │           ├── Trichoderma_breve_T069.fasta                      # Trichoderma breve T069 菌株线粒体基因组序列
+│   │           ├── Trichoderma_breve_T069.gb                         # Trichoderma breve T069 菌株线粒体基因组 genbank 文件
+│   │           └── Trichoderma_breve_T069.gff                        # Trichoderma breve T069 菌株线粒体基因组 gff3 文件
 │   ├── Clavicipitaceae/                                              
 │   ├── Cordycipitaceae/
 │   ├── Bionectriaceae/
@@ -36,9 +37,8 @@ HypoMtDB/                                                             # 数据�
 │   ├── Sarocladiaceae/
 │   ├── Stcahybotryaceae/ 
 └── scripts/                                                          # 辅助脚本文件夹（存储数据处理、格式转换工具）
-    ├── fasta_format_check.py                                         # Python 脚本：批量校验 FASTA 文件格式（避免序列截断、格式错误）
-    ├── gff2gbk_convert.py                                            # Python 脚本：将 GFF 注释文件批量转换为 GenBank 格式
-    └── README.md                                                     # 脚本使用说明：含依赖库安装、运行命令、参数解释
+    ├── one_step_to_construct_database.py                             # Python 脚本：处理收集的数据文件，一步搭建数据库
+    └── README.md                                                     # 脚本使用说明
 ```
 # How to download HypoMtDB?
 ## Windows Download
